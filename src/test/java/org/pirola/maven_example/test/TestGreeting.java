@@ -56,6 +56,6 @@ public class TestGreeting extends TestCase {
      * @since 2015-07-15
      */
     public void testGetGreeting() {
-        assertEquals("Test get greeting", "Hello World!!!", org.pirola.maven_example.MavenExample.getGreeting());
+        assertEquals("Test get greeting", "Hello World!!!", org.pirola.maven.example.MavenExample.getGreeting());
     }
 }

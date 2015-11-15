@@ -1,4 +1,4 @@
-package org.pirola.maven_example;
+package org.pirola.maven.example;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package org.pirola.maven_example;
+package org.pirola.maven.example;
 
 import java.io.IOException;
 import java.util.Map.Entry;
@@ -12,6 +12,12 @@ import java.util.jar.Manifest;
  * @since 2015-07-15
  */
 public final class ReadManifest {
+    /** Manifest path and file name. */
+    private static final String MANIFEST = "META-INF/MANIFEST.MF";
+    /** Attribute implementation version. */
+    private static final String ATTR_VERSION = "Implementation-Version";
+    /** Attribute SCM revision. */
+    private static final String ATTR_SCM_REVISION = "Scm-Revision";
 
     /**
      * Constructor.
@@ -19,13 +25,6 @@ public final class ReadManifest {
      */
     private ReadManifest() {
     }
-
-    /** Manifest path and file name. */
-    private static final String MANIFEST = "META-INF/MANIFEST.MF";
-    /** Attribute implementation version. */
-    private static final String ATTR_VERSION = "Implementation-Version";
-    /** Attribute SCM revision. */
-    private static final String ATTR_SCM_REVISION = "Scm-Revision";
 
     /**
      * Return program version and build information.

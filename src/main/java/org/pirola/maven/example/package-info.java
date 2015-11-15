@@ -24,4 +24,4 @@
  * @author Fabio Pirola <fabio@pirola.org>
  * @since 2015-07-15
  */
-package org.pirola.maven_example;
+package org.pirola.maven.example;
