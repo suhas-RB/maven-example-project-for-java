@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.pirola.maven_example</groupId>
+	<groupId>org.pirola.maven.example</groupId>
 	<!-- Remember to use '-' as word separator. -->
 	<artifactId>maven-example-project-for-java</artifactId>
-	<version>1.0</version>
+	<version>2.0</version>
 	<packaging>jar</packaging>
 
 	<!-- Begin project description. -->
@@ -34,7 +34,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.vendor>pirola.org</project.vendor>
-		<project.mainClass>org.pirola.maven_example.MavenExample</project.mainClass>
+		<project.mainClass>org.pirola.maven.example.MavenExample</project.mainClass>
 	</properties>
 	<!-- Fake URLs. This fake URL is used to fail search remote repository and 
 		it use instead the local repository (see buildnumber-maven-plugin). -->

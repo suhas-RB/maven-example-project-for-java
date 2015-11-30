@@ -1,4 +1,4 @@
-package org.pirola.maven_example.test;
+package org.pirola.maven.example.test;
 
 /*
  * Maven test example.
